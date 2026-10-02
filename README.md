@@ -1,8 +1,14 @@
-# Uma Metodologia para Análise de Impactos da Demanda de Eletropostos na Rede de Distribuição
+# A Methodology for Analyzing the Impacts of Charging Station Demand on the Distribution Network
+
+## Autores:
+- Eutran de Jesus Ramalho
+- Juan Carlos Galvis Manso
+## Afiliação:
+Universidade Federal de Ouro Preto
 
 Este repositório contém os códigos utilizados para reproduzir os resultados do artigo *"A Methodology for Analyzing the Impacts of Charging Station Demand on the Distribution Network"* (E. J. Ramalho e J. C. Galvis Manso, UFOP). O fluxo de trabalho combina: (0) projeção da demanda e da penetração de VEs, (1) conversão da rede real (BDGD/ANEEL) para OpenDSS, (2) simulação de mobilidade urbana no Eclipse SUMO, (3) simulação de Monte Carlo da demanda de recarga integrada ao OpenDSS e (4) análise dos resultados.
 
-## Autores:
+
 
 ## Visão geral do fluxo
 
