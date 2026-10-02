@@ -99,8 +99,6 @@ Converte os dados de rede elétrica extraídos da Base de Dados Geográficos da 
 
 Planilhas da BDGD exportadas (via QGIS) para `.xlsx`, **na pasta de trabalho do MATLAB** (ou no *path*): `CTMT`, `SSDMT`, `SSDBT`, `SEGCON`, `EQTRMT`, `UNTRMT`, `UCBT`, `UCMT`, `PIP`, `UNREMT` e `EQRE`. Os arquivos devem conter a rede completa da distribuidora, pois o script filtra o alimentador pelo código informado em `Ali`.
 
-Também é lido o arquivo `perfil_agregado_carga_lenta.csv` (coluna `Potencia_Agregada_kW`, 24 valores horários), que fornece a curva de carga agregada das recargas lentas e é usada como *loadshape* dos ELs no cenário em questão. Ele é procurado dentro de `pasta_simulacao`.
-
 ### Parâmetros a configurar (início do script)
 
 | Variável | Descrição |
