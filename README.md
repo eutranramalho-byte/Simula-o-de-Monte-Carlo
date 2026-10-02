@@ -117,7 +117,6 @@ Planilhas da BDGD exportadas (via QGIS) para `.xlsx`, **na pasta de trabalho do 
 Execute o script. Serão gerados no diretório de saída os arquivos `.dss` do alimentador (linhas, *linecodes*, transformadores, cargas, *loadshapes*, coordenadas das barras etc.) e o arquivo mestre **`MainCode.dss`**, que referencia todos os demais por `Redirect`. Esse é o arquivo compilado pelo OpenDSS na etapa 3.
 
 > Para o Monte Carlo, o diretório de saída deve seguir a estrutura esperada pela etapa 3: `Resultados\caso<N>\Alimentador<Ali>\MainCode.dss`.
-> O script define a taxa `PROB_EL` apenas para os casos 2, 3 e 4; para o caso base (1), use `PROB_EL = 0`.
 
 ---
 
